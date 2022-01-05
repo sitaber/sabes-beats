@@ -1,0 +1,14 @@
+/* Custom CSS for Audio Player */
+ 
+@media (min-width: 512px) {
+  .container {
+    max-width: 512px;
+    margin: 0 auto;
+  }
+}
+
+/* Audio Graph CSS */
+audio {
+    width: 100%;
+}
+
