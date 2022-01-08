@@ -11,3 +11,6 @@ audio {
     width: 100%;
 }
 
+.playlist-item.active {
+    color: rgb(255,0,0)
+}
