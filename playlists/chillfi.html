@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    
+    <!-- Custom Audio Player !-->
+    <div class="container">
+    <audio id="audioPlayer" class="audio" preload=”metadata”> Sorry, your browser doesn't support html5!</audio>
+    
+    <!-- Main Control Bar !-->
+    <div class="controlBar">
+        <!-- Back Button !-->
+        <div class="buttonContainer" id="backButton">
+            <div class="fa fa-backward fa-sm button" aria-hidden="true"></div>
+        </div>
+    
+        <!-- Play Button !-->
+        <div class="buttonContainer" id="playButton" >
+            <div class="fa fa-play fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Forward Button !-->
+        <div class="buttonContainer" id="forwardButton">
+            <div class="fa fa-forward fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Progress Indicator !-->
+        <div style="width: calc(var(--width) * 0.30);">
+            <div id="progressRail">
+                <div id="progressBar"></div>
+            </div>
+        </div>
+        
+        <!-- Time Text !-->
+        <div class="currentTime"> </div>
+        <div class="totalTime"> </div>
+        
+        <!-- Volume Button !-->
+        <div class="buttonContainer" id="muteButton">
+            <div class="fa fa-volume-up fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Volume Indicator !-->
+        <div style="width: calc(var(--width) * 0.20);">
+            <div id="volumeRail">
+                <div id="volumeBar"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Control Bar !-->
+    
+    <!-- Playlists !-->
+        <div class="playlist active" id="one"> 
+        <a class="playlist-item active" href="./chillfi/Chill-Hop.mp3">Chill-Hop <span> 2:18 </span></a>
+        <a class="playlist-item" href="./chillfi/Walk in the Park.mp3">Walk in the Park <span> 3:15  </span></a>   
+        <a class="playlist-item" href="./chillfi/Pepper Mint.mp3">Pepper Mint <span> 1:54 </span></a>
+        <a class="playlist-item" href="./chillfi/Bright Breeze.mp3">Bright Breeze <span> 2:52 </span></a>   
+        <a class="playlist-item" href="./chillfi/Rain Clouds.mp3">Rain Clouds <span> 3:16 </span></a>  
+        <a class="playlist-item" href="./chillfi/Lay-Z-Boy.mp3">Lay-Z-Boy <span>  2:35 </span></a>  
+        <a class="playlist-item" href="./chillfi/Cool Mint.mp3">Cool Mint <span> 2:28 </span></a>         
+        </div> 
+        
+    <div>
+    <a href="../index.html"> HOME</a> |
+    <a href="./chillfi_b.html"> Basic Player</a> 
+    </div> 
+    <!-- End Playlists !-->
+    </div>
+    <!-- End Custom Audio Player !-->
+    <script src="assets/js/controls.js"></script>
+    <script src="assets/js/playlist.js"></script> 
+</body>
+</html>
+
+
+                    

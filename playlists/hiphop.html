@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    
+    <!-- Custom Audio Player !-->
+    <div class="container">
+    <audio id="audioPlayer" class="audio" preload=”metadata”> Sorry, your browser doesn't support html5!</audio>
+    
+    <!-- Main Control Bar !-->
+    <div class="controlBar">
+        <!-- Back Button !-->
+        <div class="buttonContainer" id="backButton">
+            <div class="fa fa-backward fa-sm button" aria-hidden="true"></div>
+        </div>
+    
+        <!-- Play Button !-->
+        <div class="buttonContainer" id="playButton" >
+            <div class="fa fa-play fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Forward Button !-->
+        <div class="buttonContainer" id="forwardButton">
+            <div class="fa fa-forward fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Progress Indicator !-->
+        <div style="width: calc(var(--width) * 0.30);">
+            <div id="progressRail">
+                <div id="progressBar"></div>
+            </div>
+        </div>
+        
+        <!-- Time Text !-->
+        <div class="currentTime"> </div>
+        <div class="totalTime"> </div>
+        
+        <!-- Volume Button !-->
+        <div class="buttonContainer" id="muteButton">
+            <div class="fa fa-volume-up fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Volume Indicator !-->
+        <div style="width: calc(var(--width) * 0.20);">
+            <div id="volumeRail">
+                <div id="volumeBar"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Control Bar !-->
+    
+    <!-- Playlists !-->
+        <div class="playlist active" id="one"> 
+<a class="playlist-item active" href="./hiphop/GrooveMe (intro).mp3">GrooveMe (intro) <span> 0:23 </span></a>
+<a class="playlist-item" href="./hiphop/No Mondays.mp3">No Mondays <span> 1:23 </span></a>
+<a class="playlist-item" href="./hiphop/Silly Questions.mp3">Silly Questions <span> 1:12 </span></a>
+<a class="playlist-item" href="./hiphop/Hills & Valleys.mp3">Hills & Valleys <span> 1:50 </span></a>
+<a class="playlist-item" href="./hiphop/Loving That.mp3">Loving That <span> 2:30 </span></a>
+<a class="playlist-item" href="./hiphop/Window Rasin.mp3">Window Rasin <span> 2:02 </span></a>
+<a class="playlist-item" href="./hiphop/HangOver (interlude.mp3">HangOver (interlude) <span> 0:36 </span></a>
+<a class="playlist-item" href="./hiphop/Grouchy.mp3">Grouchy <span> 1:37 </span></a>
+<a class="playlist-item" href="./hiphop/Away We Go.mp3">Away We Go <span> 2:05 </span></a>
+<a class="playlist-item" href="./hiphop/Someday.mp3">Someday <span> 1:35 </span></a>
+<a class="playlist-item" href="./hiphop/The One You Are.mp3">The One You Are <span> 1:28 </span></a>
+<a class="playlist-item" href="./hiphop/Smile, Your On Camera.mp3">Smile, Your On Camera <span> 1:10 </span></a>
+<a class="playlist-item" href="./hiphop/See You Next Time.mp3">See You Next Time <span> 2:32 </span></a>
+            
+        </div> 
+        
+    <div>
+    <a href="../index.html"> HOME</a> |
+    <a href="./hiphop_b.html"> Basic Player</a>
+    </div> 
+    <!-- End Playlists !-->
+    </div>
+    <!-- End Custom Audio Player !-->
+    <script src="assets/js/controls.js"></script>
+    <script src="assets/js/playlist.js"></script> 
+</body>
+</html>
+
+
+
+
+
