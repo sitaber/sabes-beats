@@ -29,6 +29,7 @@ function toggleMute() {
 
 // Mute Button
 muteButton.addEventListener("click", muteIt, false)
+muteButton.addEventListener("touchstart", muteIt, false)
 
 function muteIt(e) {
   
@@ -47,6 +48,7 @@ function muteIt(e) {
 
 // Play-Pause Button
 playButton.addEventListener("click", playIt, false)
+playButton.addEventListener("touchstart", playIt, false)
 
 function playIt(e) {
   let playing = playButton.firstElementChild.classList.contains("fa-pause");
