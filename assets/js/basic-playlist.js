@@ -15,7 +15,7 @@ function playOnClick(e) {
 function playNext(e) {
   let anchorElement = document.querySelector(".playlist-item.active")
   //let nextSong = anchorElement.nextElementSibling;
-  let nextSong = parentElement.nextElementSibling.children[0]
+  let nextSong = anchorElement.parentElement.nextElementSibling.children[0]
   if (nextSong) {
     anchorElement.classList.remove("active");
     nextSong.classList.add("active");
