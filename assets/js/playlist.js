@@ -51,3 +51,20 @@ player.addEventListener("ended", playNext, false)
 forwardButton.addEventListener("click", playNext, false)
 backButton.addEventListener("click", playPrevious, false)
 player.onloadeddata = (event) => { getTime() }
+
+function switchPlayer() {
+  if (!basicPlayer) {
+    document.getElementsByClassName("controlBar")[0].style.display = "none";
+    document.getElementsByClassName("audio")[0].style.display = "inline";
+    basicPlayer = true
+    switchBtn.style.display = "none";
+  } else {
+    document.getElementsByClassName("controlBar")[0].style.display = "flex";
+    document.getElementsByClassName("audio")[0].style.display = "none";
+    basicPlayer = false
+    }
+}
+
+let switchBtn = document.getElementById("btn");
+let basicPlayer = false;
+switchBtn.addEventListener("click", switchPlayer, false);
