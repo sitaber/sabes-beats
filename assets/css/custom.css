@@ -7,6 +7,14 @@
   }
 }
 
+audio {
+    width: 100%;
+    display: none;
+    margin-bottom: -4px;
+
+}
+
+
 /* Controls - Player  CSS */
 .controlBar {
 	position: relative;
