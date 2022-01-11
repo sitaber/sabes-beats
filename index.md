@@ -1,4 +1,4 @@
-_If the styled player does not work, there is a button on each playlist page to switch to your browsers default media player._
+_If the styled player does not work, click button at the bottom of playlist to switch to your browsers default media player._
 
 ### [Bithop](./playlists/bithop.html)
 Gritty, bit crushed, audio-phonic experience
