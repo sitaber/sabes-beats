@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Hip-Hop</title>
+    <link rel="stylesheet" href="../assets/css/font-awesome.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+</head>
+<body>
+    
+    <!-- Custom Audio Player !-->
+    <div class="container">
+    <audio id="audioPlayer" class="audio" preload=”metadata” controls> Sorry, your browser doesn't support html5!</audio>
+    
+    <!-- Main Control Bar !-->
+    <div class="controlBar">
+        <!-- Back Button !-->
+        <div class="buttonContainer" id="backButton">
+            <div class="fa fa-backward fa-sm button" aria-hidden="true"></div>
+        </div>
+    
+        <!-- Play Button !-->
+        <div class="buttonContainer" id="playButton" >
+            <div class="fa fa-play fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Forward Button !-->
+        <div class="buttonContainer" id="forwardButton">
+            <div class="fa fa-forward fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Progress Indicator !-->
+        <div style="width: calc(var(--width) * 0.30);">
+            <div id="progressRail">
+                <div id="progressBar"></div>
+            </div>
+        </div>
+        
+        <!-- Time Text !-->
+        <div class="currentTime"> </div>
+        <div class="totalTime"> </div>
+        
+        <!-- Volume Button !-->
+        <div class="buttonContainer" id="muteButton">
+            <div class="fa fa-volume-up fa-sm button" aria-hidden="true"></div>
+        </div>
+        
+        <!-- Volume Indicator !-->
+        <div style="width: calc(var(--width) * 0.20);">
+            <div id="volumeRail">
+                <div id="volumeBar"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Control Bar !-->
+    
+    <!-- Playlists !-->
+        <div class="playlist active" id="one"> 
+<a class="playlist-item active" href="./2023-Vol-I/01-corner2corner.mp3">Intro <span> 0:33 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/02-Gloomy.mp3">Gloomy <span> 1:02 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/03-Shoe-da-Dupe.mp3">Shoe-da-Dupe <span> 1:13 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/04-TakeAStrool.mp3">Take A Strool <span> 1:11 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/05-OverParty.mp3">Over Party <span> 1:00 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/06-MistyEyed.mp3">Misty Eyed <span> 1:13 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/07-AreYou.mp3">Are You <span> 1:33 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/08-RapKittens.mp3">RapKittens <span> 2:06 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/09-bithop.mp3">Bithop <span> 0:55 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/10-nikes.mp3">Nikes <span> 1:08 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/11-ONE_BEAT.mp3">ONE BEAT <span> 1:25 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/12-WolfCastle.mp3">WolfCastle <span> 1:00 </span></a>
+<a class="playlist-item" href="./2023-Vol-I/13-Moone.mp3">Moone (Outro) <span> 0:30 </span></a>
+            
+        </div> 
+        
+    <div>
+    <a href="../index.html">PLAYLISTS</a>          
+    <button type="button" id="btn">Switch Player</button>
+    </div> 
+    <!-- End Playlists !-->
+    </div>
+    <!-- End Custom Audio Player !-->
+    <script src="../assets/js/controls.js"></script>
+    <script src="../assets/js/playlist.js"></script> 
+</body>
+</html>
+
+
+
+
+
