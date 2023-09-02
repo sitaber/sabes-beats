@@ -2,6 +2,8 @@ _If the styled player does not work, click button at the bottom of playlist to s
 
 ## 2023
 Fresh Batches
+### [2023 Vol 1.5](./playlists/2023-Vol-1.5.html)
+2023 Hip Hop beats, Volume 1.5, Quick Snack
 
 ### [2023 Vol I](./playlists/2023-Vol-I.html)
 2023 Hip Hop beats, Volume 1
